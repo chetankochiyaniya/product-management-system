@@ -1,0 +1,75 @@
+:root{
+    --bgcolor : #0b163f;
+    --btncolor : #0d6efd;
+    --textcolor: #ffffff;
+}
+body{
+    background-color: var(--bgcolor);
+}
+
+@media (min-width: 992px){
+    .table-responsive{
+        overflow-x: hidden !important;
+    }
+}
+@media (max-width:576px){
+    .jcs{
+        justify-content: start !important;
+        margin-top: 5px;
+    }
+    .card{
+        width: 90% !important;
+    }
+    .btn_color{
+        margin-right: 17px !important;
+    }
+
+}
+@media (max-width:768px){
+    .bi-arrow-down-up{
+        display: none !important;
+    }
+}
+button{
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.btn_color{
+    background-color: var(--btncolor);
+    color: var(--textcolor);
+}
+
+.bi-arrow-down-up{
+    color: black;  
+}
+
+.viewProductSection {
+    height: 70vh;
+}
+
+/* Hide the spin button in priceInput */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#viewImage {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.fa{
+    font-size: 28px;
+    color: black;
+}
+.fa-inr{
+    font-size: 18px !important;
+    color: black;
+}
+.fa-change{
+    font-size: 24px !important;
+    color: white !important;
+}
